@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+   
+       
+        {{>navbar}}
+        {{!-- hero section start --}}
+        <div class = "container-fluid mt-5">
+          <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+              <div class="row">
+                <div class="col-md-6 col-12 hero-text order-md-0 order-1 d-flex justify-content-center align-items-start flex-column">
+                  <h1>Career Success</h1>
+                  <h1>Starts Here.</h1>
+                  <p>Embark on a transformative learning journey with <span class="bold-style">Sikka Coaching Institute. </span>. Whether you're preparing for competitive exams, seeking academic enrichment, or aiming for career advancement, we're here to guide you every step of the way.</p>
+                  
+                </div>
+
+                {{!-- right side --}}
+                
+                 <div class="col-md-6 col-12 hero-text order-md-1 order-0">
+                    <figure>
+                      <img src="images/coac.jpg" alt="herosection_image">
+                    </figure>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        {{!-- hero section ends --}}
+
+        {{>about}}
+
+        {{>service}}
+
+        {{>maps}}
+
+         {{>contact}}
+
+        
+    <script src= "../jq/jquery.js" type = "text/javascript"></script>
+    <script src= "../js/bootsrap.js" type = "text/javascript"></script>
+    
+</body>
+</html>
